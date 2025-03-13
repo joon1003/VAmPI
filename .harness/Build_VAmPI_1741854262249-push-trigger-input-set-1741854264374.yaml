@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_VAmPI_1741854262249-push-trigger-input-set
+  identifier: Build_VAmPI_1741854262249pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jkimlab
+  pipeline:
+    identifier: Build_VAmPI_1741854262249
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
