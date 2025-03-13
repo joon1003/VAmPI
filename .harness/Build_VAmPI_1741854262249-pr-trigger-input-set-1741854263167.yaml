@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_VAmPI_1741854262249-pr-trigger-input-set
+  identifier: Build_VAmPI_1741854262249prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jkimlab
+  pipeline:
+    identifier: Build_VAmPI_1741854262249
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
